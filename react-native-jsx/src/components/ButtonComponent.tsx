@@ -12,18 +12,25 @@ const ButtonComponent = () => (
 
 {/* execute if when touch  and leave form  the  button */}
     <Pressable onPress={()=> console.log("Pressed")}>
-      <Text style={{color:'teal'}}>Press Me</Text>
+      <Text style={{color:'teal'}}>On Press</Text>
     </Pressable>
 
 {/* execute  instant when touched */}
     <Pressable onPressIn={()=> console.log("On Pressed In")}>
-      <Text style={{color:'coral'}}>Press Me</Text>
+      <Text style={{color:'coral'}}>On Press In</Text>
     </Pressable>
     
 {/* execute when leave */}
     <Pressable onPressOut={()=> console.log("On Pressed Out")}>
-      <Text style={{color:'megent'}}>Press Me</Text>
+      <Text style={{color:'magenta'}}>On Press Out</Text>
     </Pressable>
+
+{/* execute when long pressed */}
+     <Pressable onLongPress={()=> console.log("On Long Pressed")}>
+      <Text style={{color:'crimson'}}>On Long Press</Text>
+    </Pressable>
+
+
 
 
 

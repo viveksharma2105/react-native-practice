@@ -3,6 +3,9 @@ import React from 'react'
 import TextComponent from '../components/TextComponent'
 import ViewComponent from '../components/ViewComponent'
 import ButtonComponent from '../components/ButtonComponent'
+import ImageComponent from '../components/ImageComponent'
+import DynamicComponent from '../components/DynamicComponent'
+import InlinestyleComponent from '../components/InlinestyleComponent'
 
 const index = () => {
   return (
@@ -10,6 +13,10 @@ const index = () => {
       <TextComponent/>
       <ViewComponent/>
       <ButtonComponent/>
+      <ImageComponent/>
+      <DynamicComponent/>
+      <Text>InlineStyle below-:</Text>
+      <InlinestyleComponent/>
     </View>
   )
 }
